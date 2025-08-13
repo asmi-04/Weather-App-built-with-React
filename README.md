@@ -1,12 +1,32 @@
-# React + Vite
+# 🌦 Weather App (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Description
+This is a simple weather application built using **React**.  
+It fetches real-time weather data from the **OpenWeatherMap API** and displays:
+- Current temperature
+- Weather condition (e.g., sunny, cloudy, rainy)
+- Weather icon
 
-Currently, two official plugins are available:
+The user can search for any city in the world to get live weather updates.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖥️ Demo
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/37458181-eba1-40e6-b69a-d2035bd47a5e" />
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+- React.js
+- CSS3 
+- OpenWeatherMap API
+
+## 📂 Project Structure
+weather-app/
+│── src/
+│ ├── components/
+│ │ ├── WeatherCard.jsx
+│ │ └── SearchBar.jsx
+│ ├── App.js
+│ ├── App.css
+│ ├── index.js
+│── package.json
+│── README.md
+
